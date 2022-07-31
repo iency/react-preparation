@@ -9,7 +9,7 @@ const Posts = () => {
   const [searchId, setSearchId] = useState(id);
 
   function onSearch() {
-    fetchPosts(searchId)
+    fetchPosts(searchId);
   }
 
   async function fetchPosts(userId) {
