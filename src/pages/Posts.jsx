@@ -3,7 +3,7 @@ import { Link, useParams } from 'react-router-dom';
 import axios from 'axios';
 
 const Posts = () => {
-  const { id } = useParams();
+  const {id} = useParams();
   const [posts, setPosts] = useState([]);
   const [loading, setLoading] = useState(true);
   const [searchId, setSearchId] = useState(id);
